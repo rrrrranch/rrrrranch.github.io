@@ -1,0 +1,35 @@
+.navbar {
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+    padding: 1rem; /* Padding */
+    /* font-family: 'Helvetica Neue Light', sans-serif; */
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Space between title and links */
+    align-items: center; /* Center items vertically */
+    gap: 0rem;
+}
+
+.navbar-title {
+    font-size: 1.5rem; /* Title size */
+}
+
+.navbar-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Display links in a row */
+    gap: 1rem; /* Space between links */
+    font-size: 1.5rem; /* Title size */
+}
+
+.navbar-links a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
