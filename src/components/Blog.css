@@ -1,0 +1,41 @@
+.blog-container {
+    padding: 2rem; /* Padding around the blog */
+    background: linear-gradient(to bottom, #1a1a1a, whitesmoke, #1a1a1a); /* Gradient background */
+    color: #333; /* Text color */
+    margin-bottom: 2rem;
+}
+
+.blog-title {
+    font-size: 3rem; /* Title size */
+    margin-bottom: 1.5rem; /* Space below title */
+    font-family: 'Bad Acid', sans-serif;
+    color: whitesmoke;
+}
+
+.blog-posts {
+    display: flex;
+    flex-direction: column; /* Stack posts vertically */
+    gap: 1.5rem; /* Space between posts */
+}
+
+.blog-post {
+    background-color: whitesmoke; /* Post background color */
+    padding: 1rem; /* Padding inside each post */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px #1a1a1a; /* Subtle shadow */
+}
+
+.post-title {
+    font-size: 1.5rem; /* Post title size */
+    margin: 0; /* Remove default margin */
+}
+
+.post-date {
+    font-size: 0.9rem; /* Date size */
+    color: gray; /* Date color */
+}
+
+.post-content {
+    font-size: 1rem; /* Content size */
+    line-height: 1.5; /* Line height for readability */
+}

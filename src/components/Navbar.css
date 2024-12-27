@@ -1,35 +1,64 @@
 .navbar {
-    background-color: black; /* Background color */
-    color: white; /* Text color */
-    padding: 1rem; /* Padding */
-    /* font-family: 'Helvetica Neue Light', sans-serif; */
+    background-color: #1a1a1a;
+    color: whitesmoke; 
+    padding: 1rem;
+    line-height: 1.5;
 }
 
 .navbar-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between; /* Space between title and links */
-    align-items: center; /* Center items vertically */
-    gap: 0rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navbar-container h1,
+.navbar-container h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
 }
 
 .navbar-title {
-    font-size: 1.5rem; /* Title size */
+    /* font-family: 'Helvetica Neue', sans-serif; */
+    font-weight: 400;
+    font-size: 1.5rem;
 }
 
-.navbar-links {
-    list-style: none; /* Remove bullet points */
-    display: flex; /* Display links in a row */
-    gap: 1rem; /* Space between links */
-    font-size: 1.5rem; /* Title size */
+.navbar-description {
+    display: inline;
+    font-weight: 400;
+    font-size: 1.7rem;
+    font-family: 'Bad Acid', sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.navbar-links a {
-    color: white; /* Link color */
-    text-decoration: none; /* Remove underline */
+.navbar a {
+    color: rgba(169, 169, 169, 0.8);
+    /* border: 1px solid #a9a9a9; */
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
 }
 
-.navbar-links a:hover {
-    text-decoration: underline; /* Underline on hover */
+.navbar-link {
+    color: rgba(169, 169, 169, 0.8);
+    border: 1px solid #a9a9a9;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    font-family: 'Bad Acid', sans-serif;
+}
+
+.social-link {
+    color: rgba(169, 169, 169, 0.8);
+    border: 1px dashed #a9a9a9;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    font-family: 'Bad Acid', sans-serif;
 }

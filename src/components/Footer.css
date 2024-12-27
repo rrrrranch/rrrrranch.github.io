@@ -1,0 +1,32 @@
+.footer {
+    background-color: #1a1a1a;
+    color: whitesmoke;
+    padding: 2rem;
+    text-align: left;
+    /* width: 100%; */
+    /* max-width: 800px; */
+    margin: 0 auto;
+}
+
+.footer-title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.footer-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ccc;
+    border: 1px solid whitesmoke;
+    padding: 1rem;
+    /* max-width: 700px; */
+}
+
+.author {
+    font-size: 1rem;
+    margin-top: 2rem;
+    text-align: right;
+}
